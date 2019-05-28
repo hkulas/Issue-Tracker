@@ -2,7 +2,7 @@ package com.hkulas.issuetracker;
 
 import javax.persistence.*;
 
-@Entity
+@MappedSuperclass
 abstract class DbIdentity {
 
     @Id
