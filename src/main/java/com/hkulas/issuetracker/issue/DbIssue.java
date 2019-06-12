@@ -10,4 +10,6 @@ public class DbIssue extends DbIdentity{
 
     private String name;
 
+    private String description;
+
 }

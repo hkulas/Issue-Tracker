@@ -1,7 +1,10 @@
 package com.hkulas.issuetracker;
 
+import lombok.Data;
+
 import javax.persistence.*;
 
+@Data
 @MappedSuperclass
 abstract class DbIdentity {
 
